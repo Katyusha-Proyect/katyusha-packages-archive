@@ -1,1 +1,10 @@
+# Katyusha package index
+# Format: [NAME][VERSION][URL][URL_PACK][DESCRIPTION optional]
+# - Lines starting with '#' are comments and are ignored.
+# - URL_PACK must be HTTPS and point to a .tar.gz file.
+# - The .tar.gz must contain, at its root, either a binary named
+#   the same as NAME or an executable install.sh script.
 
+[nano][8.0][https://nano-editor.org][https://github.com/katyusha-pm/packages/releases/download/nano-8.0/nano.tar.gz][Simple terminal text editor]
+[htop][3.3.0][https://htop.dev][https://github.com/katyusha-pm/packages/releases/download/htop-3.3.0/htop.tar.gz][Interactive process monitor]
+[fastfetch][2.20.0][https://github.com/fastfetch-cli/fastfetch][https://github.com/katyusha-pm/packages/releases/download/fastfetch-2.20.0/fastfetch.tar.gz][System information tool]
