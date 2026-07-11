@@ -13,4 +13,4 @@
 # Their raw download URL follows this pattern:
 #   https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{path}
 
-[nano][9.1][https://nano-editor.org][https://raw.githubusercontent.com/Katyusha-Proyect/katyusha-packages/main/packages/gnu/nano-9.0/nano-9.1.tar.xz][Simple terminal text editor]
+[nano][9.1][https://nano-editor.org][https://raw.githubusercontent.com/Katyusha-Proyect/katyusha-packages/main/packages/gnu/nano-9.1/nano-9.1.tar.gz][Simple terminal text editor]
