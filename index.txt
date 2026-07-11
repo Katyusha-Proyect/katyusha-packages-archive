@@ -5,4 +5,4 @@
 # - The .tar.gz must contain, at its root, either a binary named
 #   the same as NAME or an executable install.sh script.
 
-[nano][9.1][https://nano-editor.org][https://github.com/katyusha-packages/packages/releases/download/gnu/nano-9.0/nano-9.1.tar.gz][Simple terminal text editor]
+[nano][9.1][https://nano-editor.org][https://github.com/Katyusha-Proyect/katyusha-packages/packages/releases/download/gnu/nano-9.0/nano-9.1.tar.gz][Simple terminal text editor]
