@@ -1,8 +1,16 @@
 # Katyusha package index
 # Format: [NAME][VERSION][URL][URL_PACK][DESCRIPTION optional]
 # - Lines starting with '#' are comments and are ignored.
-# - URL_PACK must be HTTPS and point to a .tar.gz file.
+# - URL_PACK must be HTTPS and point directly to a .tar.gz file's raw
+#   bytes (NOT a github.com/.../tree/... page, which is an HTML
+#   viewer, not the file itself).
 # - The .tar.gz must contain, at its root, either a binary named
 #   the same as NAME or an executable install.sh script.
+#
+# This index file lives in Katyusha-Proyect/katyusha-packages-archive.
+# The actual .tar.gz package files are committed directly (no
+# releases) into Katyusha-Proyect/katyusha-packages, under packages/.
+# Their raw download URL follows this pattern:
+#   https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{path}
 
-[nano][9.1][https://nano-editor.org][https://github.com/Katyusha-Proyect/katyusha-packages/packages/releases/download/gnu/nano-9.0/nano-9.1.tar.gz][Simple terminal text editor]
+[nano][9.1][https://nano-editor.org][https://raw.githubusercontent.com/Katyusha-Proyect/katyusha-packages/main/packages/gnu/nano-9.0/nano-9.1.tar.gz][Simple terminal text editor]
